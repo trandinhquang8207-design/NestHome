@@ -20,7 +20,7 @@ db.name=dormassist
 File cập nhật database cũ nằm ở:
 
 ```text
-update_database.sql
+NestHome_database_clean_final.sql
 ```
 
 Script này an toàn khi chạy lại nhiều lần:
@@ -40,7 +40,7 @@ Script này an toàn khi chạy lại nhiều lần:
 Mở SQL Server Management Studio, mở file:
 
 ```text
-update_database.sql
+NestHome_database_clean_final.sql
 ```
 
 Sau đó chạy toàn bộ script. Database thống nhất là:
@@ -83,7 +83,7 @@ Ghi chú:
 
 ## 6. Tài khoản và token mẫu
 
-Sau khi chạy `update_database.sql`, nếu chưa có tài khoản admin thì script tạo:
+Sau khi chạy `NestHome_database_clean_final.sql`, nếu chưa có tài khoản admin thì script tạo:
 
 ```text
 Tên đăng nhập: admin
