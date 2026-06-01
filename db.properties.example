@@ -1,0 +1,15 @@
+# DormAssist / NestHome - Cấu hình kết nối SQL Server
+# Không đưa mật khẩu thật lên GitHub.
+db.host=localhost
+db.port=1433
+db.name=dormassist
+db.user=sa
+db.password=your_sql_server_password
+
+# Gmail SMTP cho tính năng quên mật khẩu
+# smtp.password phải là Gmail App Password 16 ký tự, không phải mật khẩu Gmail thường.
+smtp.host=smtp.gmail.com
+smtp.port=465
+smtp.username=your_gmail@gmail.com
+smtp.password=your_gmail_app_password
+smtp.from=your_gmail@gmail.com
